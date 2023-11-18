@@ -23,6 +23,7 @@ output "public_ip_address" {
   value       = azurerm_public_ip.myPublicIP.ip_address
 }
 
-# output "tls_private_key" {
-#   value       = tls_private_key.rsa-4096.private_key_pem
-# }
+output "tls_private_key" {
+  value       = tls_private_key.rsa-4096.private_key_pem
+  sensitive = true
+}
