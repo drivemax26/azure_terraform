@@ -1,0 +1,6 @@
+azure_os_disk_name = "myosdisk"
+azure_vm_location = "eastus"
+azure_vm_name = "dof01"
+public_ip_address = ""
+resource_group_name = "my_resource_group"
+vm_size = "Standard_B1ls"

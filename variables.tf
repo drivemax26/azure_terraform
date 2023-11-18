@@ -6,7 +6,7 @@ variable "resource_group_location" {
 
 variable "resource_group_name" {
   type        = string
-  default     = "<your resource group>"
+  default     = "my_resource_group"
   description = "Name of the resource group."
 
 }
@@ -48,6 +48,7 @@ variable "vnet_range" {
   default     = ["10.2.0.0/16"]
   description = "Address range for deployment VNet"
 }
+
 variable "subnet_range" {
   type        = list(string)
   default     = ["10.2.0.0/24"]
